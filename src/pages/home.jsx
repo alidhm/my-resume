@@ -7,7 +7,7 @@ function Home() {
   const navigate = useNavigate();
 
   const handleAboutClick = () => {
-    navigate('/About');
+    navigate('/about');
   };
 
   return (
