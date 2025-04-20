@@ -4,12 +4,12 @@ import Snowfall from 'react-snowfall';
 import { useNavigate } from 'react-router-dom';
 
 function Login({ setIsAuthenticated }) {
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    if (email === 'admin' && password === 'admin') {
+    if (username === 'admin' && password === 'admin') {
       setIsAuthenticated(true);
       navigate('/contact');
     } else {
@@ -27,10 +27,10 @@ function Login({ setIsAuthenticated }) {
             <Grid item xs={12}>
               <TextField 
                 fullWidth 
-                label="Email" 
+                label="Username" 
                 variant="outlined" 
-                value={email} 
-                onChange={(e) => setEmail(e.target.value)} 
+                value={username} 
+                onChange={(e) => setUsername(e.target.value)} 
                 className="white-textfield" 
               />
             </Grid>
