@@ -1,7 +1,7 @@
 {
   "name": "my-resume",
   "private": true,
-  "homepage": "https://alidhm.github.io/",
+  "homepage": "https://alidhm.github.io/my-resume/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

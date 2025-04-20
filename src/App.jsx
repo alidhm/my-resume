@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="container-fluid">
       <Navbar />
-      <Routes>
+      <Routes basename="/my-resume">
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         
