@@ -26,10 +26,9 @@ function Navbar() {
   const handleMenuOpen = (event) => setAnchorEl(event.currentTarget);
   const handleMenuClose = () => setAnchorEl(null);
 
-  // صفحات
   const menuItems = [
-    { text: 'Home', icon: <HomeIcon />, link: '/home' },
-    { text: 'About Me', icon: <InfoIcon />, link: '/' },
+    { text: 'Home', icon: <HomeIcon />, link: '/' },
+    { text: 'About Me', icon: <InfoIcon />, link: '/About' },
     { text: 'Contact Me', icon: <ContactMailIcon />, link: '/contact' },
     { text: 'Login', icon: <LoginIcon />, link: '/login' },
   ];

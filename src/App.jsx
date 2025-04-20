@@ -14,8 +14,8 @@ function App() {
     <div className="container-fluid">
       <Navbar />
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
         
         <Route 
           path="/contact" 
